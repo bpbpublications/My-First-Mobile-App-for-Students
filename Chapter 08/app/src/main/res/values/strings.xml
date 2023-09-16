@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Flash cards</string>
+    <string name="title_home">Your Notes</string>
+    <string name="title_dashboard">Add Note</string>
+    <string name="note_saved">Note saved successfully</string>
+    <string name="note_deleted">Note deleted successfully</string>
+    <string name="note_updated">Note updated successfully</string>
+    <string name="empty_not_saved">Note not saved because it is empty</string>
+    <string name="emptyNoteMessage">Create your first Note, by clicking on the add note icon</string>
+</resources>

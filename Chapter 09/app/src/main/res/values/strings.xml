@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Inspire Me</string>
+    <string name="first_fragment_label">All Post</string>
+    <string name="second_fragment_label">Upload Content</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="login_heading">Login to Inspire Me!</string>
+    <string name="register_heading">Create your Inspire Me Account</string>
+    <string name="login_btn_text">Login</string>
+    <string name="register_btn_text">Register</string>
+    <string name="post_add_heading">Add new post</string>
+    <string name="edit_post_title_hint">Post Title</string>
+    <string name="edit_post_content_hint">Enter post content here</string>
+    <string name="post_status_hint">Post status will be here</string>
+    <string name="create_post_msg">Create post</string>
+</resources>

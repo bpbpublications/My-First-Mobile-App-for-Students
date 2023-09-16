@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "580315586899",
+    "project_id": "fire-demo-kotlin21",
+    "storage_bucket": "fire-demo-kotlin21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:580315586899:android:2b0acaf58546d7745301a6",
+        "android_client_info": {
+          "package_name": "com.digipod.fireapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "580315586899-o40ptnvmc9g2a5fao01nldj5q11pjtk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARvLIOLLb5ZmZgSeg4XaG7-CgVEto7Ets"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "580315586899-o40ptnvmc9g2a5fao01nldj5q11pjtk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:580315586899:android:175600f3b1a9e8fa5301a6",
+        "android_client_info": {
+          "package_name": "com.example.inspireme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "580315586899-o40ptnvmc9g2a5fao01nldj5q11pjtk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARvLIOLLb5ZmZgSeg4XaG7-CgVEto7Ets"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "580315586899-o40ptnvmc9g2a5fao01nldj5q11pjtk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

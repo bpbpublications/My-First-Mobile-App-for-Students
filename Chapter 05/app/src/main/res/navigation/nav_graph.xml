@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/introFragment">
+    <fragment
+        android:id="@+id/introFragment"
+        android:name="com.example.moviemagic.ui.IntroFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_intro">
+        <action
+            android:id="@+id/action_introFragment_to_daySelectFragment"
+            app:destination="@id/daySelectFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/daySelectFragment"
+        android:name="com.example.moviemagic.ui.DaySelectFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_day_select">
+        <action
+            android:id="@+id/action_daySelectFragment_to_timeSelectFragment"
+            app:destination="@id/timeSelectFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/timeSelectFragment"
+        android:name="com.example.moviemagic.ui.TimeSelectFragment"
+        android:label="@string/third_fragment_label"
+        tools:layout="@layout/fragment_time_select">
+        <action
+            android:id="@+id/action_timeSelectFragment_to_seatSelectFragment"
+            app:destination="@id/seatSelectFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/seatSelectFragment"
+        android:name="com.example.moviemagic.ui.SeatSelectFragment"
+        android:label="@string/fourth_fragment_label"
+        tools:layout="@layout/fragment_seat_select">
+        <action
+            android:id="@+id/action_seatSelectFragment_to_paymentFragment"
+            app:destination="@id/paymentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/paymentFragment"
+        android:name="com.example.moviemagic.ui.PaymentFragment"
+        android:label="@string/fifth_fragment_label"
+        tools:layout="@layout/fragment_payment">
+        <action
+            android:id="@+id/action_paymentFragment_to_confirmFragment"
+            app:destination="@id/confirmFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/receiptFragment"
+        android:name="com.example.moviemagic.ui.ReceiptFragment"
+        android:label="@string/seventh_fragment_label"
+        tools:layout="@layout/fragment_receipt" />
+    <fragment
+        android:id="@+id/confirmFragment"
+        android:name="com.example.moviemagic.ui.ConfirmFragment"
+        android:label="@string/sixth_fragment_label"
+        tools:layout="@layout/fragment_confirm">
+        <action
+            android:id="@+id/action_confirmFragment_to_receiptFragment"
+            app:destination="@id/receiptFragment" />
+    </fragment>
+</navigation>

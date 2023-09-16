@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Book Finder</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Search</string>
+    <string name="second_fragment_label">Result</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="instructions">Enter any book name to search</string>
+    <string name="button_text">Search Books</string>
+    <string name="input_hint">Book title or keywords</string>
+</resources>
